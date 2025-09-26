@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				serif: ['Merriweather', 'serif'],
+				vintage: ['Playfair Display', 'serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -61,6 +65,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				vintage: {
+					cream: '#F5F5DC',
+					sand: '#D2691E', 
+					brown: '#8B4513',
+					darkbrown: '#654321',
+					gold: '#DAA520',
+					warmwhite: '#FFF8DC',
 				}
 			},
 			borderRadius: {
